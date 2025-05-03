@@ -106,10 +106,14 @@ body {
      background-color: #23b628;
 }
 
-
-
-
-
-
-
 /* -------------------- Home Page Section End -------------------- */
+
+
+/* -------------------- Brands Page Section Begin -------------------- */
+.d_title {
+     color: #4D4D4D;
+     font-weight: 600;
+     font-size: 36px;
+}
+/* -------------------- Brands Page Section End -------------------- */
+
