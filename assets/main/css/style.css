@@ -117,3 +117,34 @@ body {
 }
 /* -------------------- Brands Page Section End -------------------- */
 
+
+/* -------------------- Explore Page Section Begin -------------------- */
+.my_w {
+     width: 44%;
+}
+.ex_card {
+     max-width: 300px;
+     box-shadow: 0px 2px 4px 0px #ABBED133;
+     border-radius: 8px;
+     padding: 24px;
+}
+.small_title {
+     font-size: 28px;
+     font-weight: 700;
+     color: #4D4D4D;
+}
+
+.small_text {
+     font-size: 14px;
+     font-weight: 400;
+     color: #717171;
+}
+/* -------------------- Explore Page Section End -------------------- */
+
+
+
+@media screen and (max-width: 992px) {
+     .my_w {
+          width: 100%;
+     }
+}
