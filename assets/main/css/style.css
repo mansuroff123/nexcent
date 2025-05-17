@@ -155,9 +155,49 @@ body {
 /* -------------------- Bussness Page Section End -------------------- */
 
 
+/* -------------------- Tesla Page Section Begin -------------------- */
+.tesla_author {
+     font-weight: 600;
+     font-size: 20px;
+     color: #4CAF4F
+}
+.tesla_text {
+     font-weight: 400;
+     font-size: 16px;
+     color: #89939E;
+}
+.gr_link {
+     font-weight: 600;
+     font-size: 20px;
+     color: #4CAF4F;
+     text-decoration: none;
+}
+
+.res_img {
+     width: 100%;
+     height: auto;
+}
+
+/* -------------------- Tesla Page Section End -------------------- */
+
 
 @media screen and (max-width: 992px) {
+     .res_img {
+          width: 50%;
+     }
      .my_w {
           width: 100%;
+     }
+}
+
+@media screen and (max-width: 768px) {
+     .res_img {
+          width: 70%;
+     }
+}
+
+@media screen and (max-width: 576px) {
+     .res_img {
+          width: 75%;
      }
 }
