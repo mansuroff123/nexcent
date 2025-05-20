@@ -199,6 +199,23 @@ body {
 }
 /* -------------------- Marketing Page Section End -------------------- */
 
+/* -------------------- Demo Page Section Begin -------------------- */
+.demo {
+     font-weight: 500;
+     font-size: 16px;
+     background: #4CAF4F;
+     padding: 14px 32px;
+     border-radius: 4px;
+     text-decoration: none;
+     color:#FFFFFF;
+}
+.demo_title {
+     font-weight: 600;
+     font-size: 64px;
+     color: #263238;
+}
+/* -------------------- Demo Page Section End -------------------- */
+
 
 @media screen and (max-width: 992px) {
      .res_text {
