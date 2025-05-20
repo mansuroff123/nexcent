@@ -180,8 +180,30 @@ body {
 
 /* -------------------- Tesla Page Section End -------------------- */
 
+/* -------------------- Marketing Page Section Begin -------------------- */
+.res_text {
+     width: 50%;
+}
+.my_card {
+     background: #F5F7FA;
+     box-shadow: 0px 8px 16px 0px #ABBED166;
+     border-radius: 8px;
+     padding: 16px 16px 24px 16px;
+     max-width: 316px;
+     margin-top: -100px;
+}
+.card_title {
+     font-weight: 600;
+     font-size: 20px;
+     color: #717171;
+}
+/* -------------------- Marketing Page Section End -------------------- */
+
 
 @media screen and (max-width: 992px) {
+     .res_text {
+          width: 100%;
+     }
      .res_img {
           width: 50%;
      }
