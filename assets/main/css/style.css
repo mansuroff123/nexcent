@@ -213,8 +213,37 @@ body {
      font-weight: 600;
      font-size: 64px;
      color: #263238;
+     width: 70%;
 }
+
+
 /* -------------------- Demo Page Section End -------------------- */
+
+/* -------------------- Footer Page Section Begin -------------------- */
+footer {
+     background: #263238;
+}
+.footer_text {
+     font-weight: 400;
+     font-size: 14px;
+     color: #F5F7FA;
+}
+.footer_title {
+     font-weight: 600;
+     font-size: 20px;
+     color: #fff;
+}
+.footer_link {
+     font-weight: 400;
+     font-size: 14px;
+     text-decoration: none;
+     color: #F5F7FA;
+}
+
+.footer_link:hover {
+     text-decoration: underline;
+}
+/* -------------------- Footer Page Section End -------------------- */
 
 
 @media screen and (max-width: 992px) {
@@ -227,12 +256,16 @@ body {
      .my_w {
           width: 100%;
      }
+     .demo_title {
+          width: 100%;
+     }
 }
 
 @media screen and (max-width: 768px) {
      .res_img {
           width: 70%;
      }
+     
 }
 
 @media screen and (max-width: 576px) {
