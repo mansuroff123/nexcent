@@ -249,35 +249,40 @@ footer {
   display: flex;
   align-items: center;
   width: 100%; 
-  background-color: white;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #515B60;
+  border-radius: 8px;
 }
 
 .custom_form input[type="email"]::placeholder {
-    color: #8989A2;
+    color: #D9DBE1;
+    font-size: 14px;
 }
 
 .custom_form input[type="email"] {
   border: none;
   outline: none;
-  padding: 12px;
+  padding: 10px 12px;
   width: 100%;
   font-size: 16px;
+  background: #515B60;
+  border-radius: 8px;
+  color: #fff;
 }
 
 .custom_form button {
-  background-color: white;
+  background-color: #515B60;
   border: none;
   cursor: pointer;
   padding: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 8px;
 }
 
 .custom_form button img {
-  width: 26px; 
-  height: 26px;
+  width: 18px; 
+  height: 18px;
 }
 /* email input end */
 /* -------------------- Footer Page Section End -------------------- */
