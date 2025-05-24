@@ -243,6 +243,43 @@ footer {
 .footer_link:hover {
      text-decoration: underline;
 }
+
+/* email input start */
+.custom_form {
+  display: flex;
+  align-items: center;
+  width: 100%; 
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.custom_form input[type="email"]::placeholder {
+    color: #8989A2;
+}
+
+.custom_form input[type="email"] {
+  border: none;
+  outline: none;
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.custom_form button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom_form button img {
+  width: 26px; 
+  height: 26px;
+}
+/* email input end */
 /* -------------------- Footer Page Section End -------------------- */
 
 
