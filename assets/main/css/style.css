@@ -151,6 +151,9 @@ body {
      font-weight: 400;
      font-size: 16px;
 }
+.res_card {
+     width: 50%;
+}
 
 /* -------------------- Bussness Page Section End -------------------- */
 
@@ -313,5 +316,8 @@ footer {
 @media screen and (max-width: 576px) {
      .res_img {
           width: 75%;
+     }
+     .res_card {
+          width: 100%;
      }
 }
