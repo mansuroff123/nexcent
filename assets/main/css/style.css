@@ -43,6 +43,8 @@ body {
 /* navbar start */
 .my_nav {
      background-color: #F5F7FA;
+     position: sticky;
+     top: 0;
 }
 
 .my_nav .active {
